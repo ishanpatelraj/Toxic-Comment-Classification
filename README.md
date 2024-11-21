@@ -37,24 +37,6 @@ The model was trained and tested on a public toxic comment dataset. Ensure you h
 - Columns: `id`, `comment_text`, `toxic`, `severe_toxic`, `obscene`, `threat`, `insult`, `identity_hate`
 - Labels: Binary (0/1) for each category.
 
-## Usage
-1. Preprocess the data:
-   ```bash
-   python preprocess.py
-   ```
-2. Train the model:
-   ```bash
-   python train.py
-   ```
-3. Evaluate the model:
-   ```bash
-   python evaluate.py
-   ```
-4. Make predictions:
-   ```bash
-   python predict.py --input "This is a sample comment"
-   ```
-
 ## Model Architecture
 The model uses:
 - **Embedding Layer**: For word representation.
